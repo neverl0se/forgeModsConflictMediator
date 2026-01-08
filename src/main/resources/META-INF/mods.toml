@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+
+[[mods]]
+modId="conflictmediator"
+version="1.0.0"
+displayName="Conflict Mediator"
+description='''
+Мод-медиатор для разрешения конфликтов между модами на лету.
+Перехватывает ошибки загрузки и предоставляет интерактивный интерфейс для их разрешения.
+'''
+
+[[dependencies.conflictmediator]]
+modId="forgemodcomprfc"
+mandatory=true
+versionRange="[1.1.0,)"
